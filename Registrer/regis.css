@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/stc3.svg");
+    background-image: url("../images/stc3.svg");
     background-size: cover; /* Esto asegura que el SVG cubra todo el fondo */
     background-repeat: no-repeat;
     background-position: center center;
