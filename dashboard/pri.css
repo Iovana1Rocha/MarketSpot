@@ -160,7 +160,10 @@
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-    text-align: center;
+    text-align: center5;
+    width: 29%;
+    list-style: none;
+    text-decoration: none;
 }
 
 .buy-button:hover {
