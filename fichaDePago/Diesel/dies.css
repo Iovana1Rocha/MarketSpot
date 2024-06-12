@@ -20,10 +20,10 @@
 }
 .txt-uno{
     color: white;
-    justify-content: center;
+    justify-content:center;
     font-size: 20px;
     font-weight: lighter;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .txt-uno1{
     color: white;
@@ -33,20 +33,20 @@
 }
 .cajita{
     background-color: white;
-    width: 500px;
-    height: 400px;
+    width: 120%;
+    height: 450px;
     border-radius: 10px;
 }
 .sect{
     display: flex;
     margin-top: 1%;
     margin-left: 3%;
-
+    width: auto;
 }
 .cajita2{
     background-color: white;
-    width: 700px;
-    height: 600px;
+    width: 100%;
+    height: 110%;
     border-radius: 10px;
 }
 .segundo-flex{ 
