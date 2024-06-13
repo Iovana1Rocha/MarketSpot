@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.liters {
+    color: #007bff;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}

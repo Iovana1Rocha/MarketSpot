@@ -14,12 +14,23 @@
     </div>
 
     <section class="sect">
-        
         <div class="primer-flex">
             <h1 class="txt-uno">Usted esta adquriendo producto: <samp class="txt-uno1">Diesel</samp></h1>
            
             <div class="cajita">
-            
+                <div class="calculator-container">
+                    <label for="cantidad">Diesel</label>
+                    <div class="input-group">
+                        <button id="decrement">-</button>
+                        <input id="cantidad" type="number" value="20000" />
+                        <button id="increment">+</button>
+                    </div>
+                    <p><strong>Comisión:</strong> <span id="comision">0</span></p>
+                    <p><strong>Subtotal:</strong> <span id="subtotal">0</span></p>
+                    <p><strong>Total:</strong> <span id="total">0</span></p>
+                    <div id="toast" class="toast"></div>
+                </div>
+                <script src="calc.js"></script>
             </div>
         </div>
 
